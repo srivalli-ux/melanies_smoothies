@@ -32,6 +32,9 @@ ingredients_list = st.multiselect(
     max_selections=None
 )
 
+if ingredients_list:
+ ingredients_string = ''
+
  #st.write(ingredients_string)
 
  my_insert_stmt = """ insert into smoothies.public.orders(ingredients,name_on_order)
