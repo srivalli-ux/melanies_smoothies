@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-streamlit.title('my parents new healthy diner')
+#streamlit.title('my parents new healthy diner')
 from snowflake.snowpark.functions import col
 import requests
 import pandas as pd
